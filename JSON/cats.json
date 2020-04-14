@@ -1,0 +1,599 @@
+{
+  "JSON": [
+    {
+      "name": "ხულიგნობა/დაუმორჩილებლობა",
+      "icon": "hooliganismKrebs.svg",
+      "details": {
+        "body": {
+          "items": [
+            {
+              "type": "fieldSet",
+              "title": "",
+              "items": [
+                {
+                  "fieldName": "qualification_type_name",
+                  "label": "დანაშაულის კატეგორია"
+                },
+                {
+                  "fieldName": "persons",
+                  "label": "მონაწილე პირ(ებ)ი"
+                },
+                {
+                  "fieldName": "org_structure_name",
+                  "label": "საქმეს იძიებს"
+                }
+              ]
+            }
+          ]
+        }
+      },
+      "id": "hooliganismKrebs",
+      "usersObject": false,
+      "type": "INCIDENT",
+      "title": [
+        "qualification_type_name"
+      ]
+    },
+    {
+      "name": "სქესობრივი დანაშაული",
+      "icon": "violenceagainstwomen.svg",
+      "details": {
+        "body": {
+          "items": [
+            {
+              "type": "fieldSet",
+              "title": "",
+              "items": [
+                {
+                  "fieldName": "qualification_type_name",
+                  "label": "დანაშაულის კატეგორია"
+                },
+                {
+                  "fieldName": "persons",
+                  "label": "მონაწილე პირ(ებ)ი"
+                },
+                {
+                  "fieldName": "org_structure_name",
+                  "label": "საქმეს იძიებს"
+                }
+              ]
+            }
+          ]
+        }
+      },
+      "id": "sexualAssaultKrebs",
+      "usersObject": false,
+      "type": "INCIDENT",
+      "title": [
+        "qualification_type_name"
+      ]
+    },
+    {
+      "name": "ოჯახური კონფლიქტი",
+      "icon": "familyViolenceKrebs.svg",
+      "details": {
+        "body": {
+          "items": [
+            {
+              "type": "fieldSet",
+              "title": "",
+              "items": [
+                {
+                  "fieldName": "qualification_type_name",
+                  "label": "დანაშაულის კატეგორია"
+                },
+                {
+                  "fieldName": "persons",
+                  "label": "მონაწილე პირ(ებ)ი"
+                },
+                {
+                  "fieldName": "org_structure_name",
+                  "label": "საქმეს იძიებს"
+                }
+              ]
+            }
+          ]
+        }
+      },
+      "id": "familyViolenceKrebs",
+      "usersObject": false,
+      "type": "INCIDENT",
+      "title": [
+        "qualification_type_name"
+      ]
+    },
+    {
+      "name": "იარაღთან  დაკავშირებული დანაშაული",
+      "icon": "weaponCrimeKrebs.svg",
+      "details": {
+        "body": {
+          "items": [
+            {
+              "type": "fieldSet",
+              "title": "",
+              "items": [
+                {
+                  "fieldName": "qualification_type_name",
+                  "label": "დანაშაულის კატეგორია"
+                },
+                {
+                  "fieldName": "persons",
+                  "label": "მონაწილე პირ(ებ)ი"
+                },
+                {
+                  "fieldName": "org_structure_name",
+                  "label": "საქმეს იძიებს"
+                }
+              ]
+            }
+          ]
+        }
+      },
+      "id": "weaponCrimeKrebs",
+      "usersObject": false,
+      "type": "INCIDENT",
+      "title": [
+        "qualification_type_name"
+      ]
+    },
+    {
+      "name": "ძარცვა",
+      "icon": "robberyKrebs.svg",
+      "details": {
+        "body": {
+          "items": [
+            {
+              "type": "fieldSet",
+              "title": "",
+              "items": [
+                {
+                  "fieldName": "qualification_type_name",
+                  "label": "დანაშაულის კატეგორია"
+                },
+                {
+                  "fieldName": "persons",
+                  "label": "მონაწილე პირ(ებ)ი"
+                },
+                {
+                  "fieldName": "org_structure_name",
+                  "label": "საქმეს იძიებს"
+                }
+              ]
+            }
+          ]
+        }
+      },
+      "id": "robberyKrebs",
+      "usersObject": false,
+      "type": "INCIDENT",
+      "title": [
+        "qualification_type_name"
+      ]
+    },
+    {
+      "name": "ავტოსაგზაო შემთხვევა",
+      "icon": "crash.svg",
+      "details": {
+        "body": {
+          "items": [
+            {
+              "fieldName": "autoTransportGrid",
+              "columns": [
+                {
+                  "fieldName": "protocolLawName",
+                  "header": "მუხლი"
+                },
+                {
+                  "fieldName": "personAge",
+                  "header": "მძღოლის ასაკი"
+                },
+                {
+                  "fieldName": "licenseAge",
+                  "header": "მართვის მოწმ. სტაჟი"
+                },
+                {
+                  "fieldName": "model",
+                  "header": "მარკა/მოდელი"
+                },
+                {
+                  "fieldName": "vehicleYear",
+                  "header": "გამოშვების წელი"
+                },
+                {
+                  "fieldName": "colorName",
+                  "header": "ფერი"
+                }
+              ],
+              "type": "grid",
+              "title": "ავტოტრანსპორტი"
+            }
+          ]
+        }
+      },
+      "id": "crash",
+      "usersObject": false,
+      "type": "INCIDENT",
+      "title": [
+        "address"
+      ]
+    },
+    {
+      "name": "ცემა/ჯანმრთელობის დაზიანება",
+      "icon": "healthInjuryKrebs.svg",
+      "details": {
+        "body": {
+          "items": [
+            {
+              "type": "fieldSet",
+              "title": "",
+              "items": [
+                {
+                  "fieldName": "qualification_type_name",
+                  "label": "დანაშაულის კატეგორია"
+                },
+                {
+                  "fieldName": "persons",
+                  "label": "მონაწილე პირ(ებ)ი"
+                },
+                {
+                  "fieldName": "org_structure_name",
+                  "label": "საქმეს იძიებს"
+                }
+              ]
+            }
+          ]
+        }
+      },
+      "id": "healthInjuryKrebs",
+      "usersObject": false,
+      "type": "INCIDENT",
+      "title": [
+        "qualification_type_name"
+      ]
+    },
+    {
+      "name": "ქურდობა",
+      "icon": "theftKrebs.svg",
+      "details": {
+        "body": {
+          "items": [
+            {
+              "type": "fieldSet",
+              "title": "",
+              "items": [
+                {
+                  "fieldName": "qualification_type_name",
+                  "label": "დანაშაულის კატეგორია"
+                },
+                {
+                  "fieldName": "persons",
+                  "label": "მონაწილე პირ(ებ)ი"
+                },
+                {
+                  "fieldName": "org_structure_name",
+                  "label": "საქმეს იძიებს"
+                }
+              ]
+            }
+          ]
+        }
+      },
+      "id": "theftKrebs",
+      "usersObject": false,
+      "type": "INCIDENT",
+      "title": [
+        "qualification_type_name"
+      ]
+    },
+    {
+      "name": "თაღლითობა/ეკონომიკური დანაშაული",
+      "icon": "forgeryKrebs.svg",
+      "details": {
+        "body": {
+          "items": [
+            {
+              "type": "fieldSet",
+              "title": "",
+              "items": [
+                {
+                  "fieldName": "qualification_type_name",
+                  "label": "დანაშაულის კატეგორია"
+                },
+                {
+                  "fieldName": "persons",
+                  "label": "მონაწილე პირ(ებ)ი"
+                },
+                {
+                  "fieldName": "org_structure_name",
+                  "label": "საქმეს იძიებს"
+                }
+              ]
+            }
+          ]
+        }
+      },
+      "id": "forgeryKrebs",
+      "usersObject": false,
+      "type": "INCIDENT",
+      "title": [
+        "qualification_type_name"
+      ]
+    },
+    {
+      "name": "ნარკოტიკული დანაშაული",
+      "icon": "drugDealers.svg",
+      "details": {
+        "body": {
+          "items": [
+            {
+              "type": "fieldSet",
+              "title": "",
+              "items": [
+                {
+                  "fieldName": "qualification_type_name",
+                  "label": "დანაშაულის კატეგორია"
+                },
+                {
+                  "fieldName": "persons",
+                  "label": "მონაწილე პირ(ებ)ი"
+                },
+                {
+                  "fieldName": "org_structure_name",
+                  "label": "საქმეს იძიებს"
+                }
+              ]
+            }
+          ]
+        }
+      },
+      "id": "drugCrimeKrebs",
+      "usersObject": false,
+      "type": "INCIDENT",
+      "title": [
+        "qualification_type_name"
+      ]
+    },
+    {
+      "name": "ავტო-საგზაო შემთხვევა სხეულის დაზიანებით",
+      "icon": "crashKrebs.svg",
+      "details": {
+        "body": {
+          "items": [
+            {
+              "type": "fieldSet",
+              "title": "",
+              "items": [
+                {
+                  "fieldName": "qualification_type_name",
+                  "label": "დანაშაულის კატეგორია"
+                },
+                {
+                  "fieldName": "persons",
+                  "label": "მონაწილე პირ(ებ)ი"
+                },
+                {
+                  "fieldName": "vehicles",
+                  "label": "მონაწილე ავტოტრანსპორტი"
+                },
+                {
+                  "fieldName": "org_structure_name",
+                  "label": "საქმეს იძიებს"
+                }
+              ]
+            }
+          ]
+        }
+      },
+      "id": "crashKrebs",
+      "usersObject": false,
+      "type": "INCIDENT",
+      "title": [
+        "qualification_type_name"
+      ]
+    },
+    {
+      "name": "გარდაცვალება/სუიციდი",
+      "icon": "deathKrebs.svg",
+      "details": {
+        "body": {
+          "items": [
+            {
+              "type": "fieldSet",
+              "title": "",
+              "items": [
+                {
+                  "fieldName": "qualification_type_name",
+                  "label": "დანაშაულის კატეგორია"
+                },
+                {
+                  "fieldName": "persons",
+                  "label": "მონაწილე პირ(ებ)ი"
+                },
+                {
+                  "fieldName": "org_structure_name",
+                  "label": "საქმეს იძიებს"
+                }
+              ]
+            }
+          ]
+        }
+      },
+      "id": "deathKrebs",
+      "usersObject": false,
+      "type": "INCIDENT",
+      "title": [
+        "qualification_type_name"
+      ]
+    },
+    {
+      "name": "ძალადობა",
+      "icon": "feud.svg",
+      "details": {
+        "body": {
+          "items": [
+            {
+              "type": "fieldSet",
+              "title": "",
+              "items": [
+                {
+                  "fieldName": "qualification_type_name",
+                  "label": "დანაშაულის კატეგორია"
+                },
+                {
+                  "fieldName": "persons",
+                  "label": "მონაწილე პირ(ებ)ი"
+                },
+                {
+                  "fieldName": "org_structure_name",
+                  "label": "საქმეს იძიებს"
+                }
+              ]
+            }
+          ]
+        }
+      },
+      "id": "violenceKrebs",
+      "usersObject": false,
+      "type": "INCIDENT",
+      "title": [
+        "qualification_type_name"
+      ]
+    },
+    {
+      "name": "ხანძარი",
+      "icon": "arsonKrebs.svg",
+      "details": {
+        "body": {
+          "items": [
+            {
+              "type": "fieldSet",
+              "title": "",
+              "items": [
+                {
+                  "fieldName": "qualification_type_name",
+                  "label": "დანაშაულის კატეგორია"
+                },
+                {
+                  "fieldName": "persons",
+                  "label": "მონაწილე პირ(ებ)ი"
+                },
+                {
+                  "fieldName": "org_structure_name",
+                  "label": "საქმეს იძიებს"
+                }
+              ]
+            }
+          ]
+        }
+      },
+      "id": "arsonKrebs",
+      "usersObject": false,
+      "type": "INCIDENT",
+      "title": [
+        "qualification_type_name"
+      ]
+    },
+    {
+      "name": "მკვლელობა/მკვლელობის მცდელობა",
+      "icon": "murderKrebs.svg",
+      "details": {
+        "body": {
+          "items": [
+            {
+              "type": "fieldSet",
+              "title": "",
+              "items": [
+                {
+                  "fieldName": "qualification_type_name",
+                  "label": "დანაშაულის კატეგორია"
+                },
+                {
+                  "fieldName": "persons",
+                  "label": "მონაწილე პირ(ებ)ი"
+                },
+                {
+                  "fieldName": "org_structure_name",
+                  "label": "საქმეს იძიებს"
+                }
+              ]
+            }
+          ]
+        }
+      },
+      "id": "murderKrebs",
+      "usersObject": false,
+      "type": "INCIDENT",
+      "title": [
+        "qualification_type_name"
+      ]
+    },
+    {
+      "name": "სხვა დანაშაული",
+      "icon": "otherCrimeKrebs.svg",
+      "details": {
+        "body": {
+          "items": [
+            {
+              "type": "fieldSet",
+              "title": "",
+              "items": [
+                {
+                  "fieldName": "qualification_type_name",
+                  "label": "დანაშაულის კატეგორია"
+                },
+                {
+                  "fieldName": "persons",
+                  "label": "მონაწილე პირ(ებ)ი"
+                },
+                {
+                  "fieldName": "org_structure_name",
+                  "label": "საქმეს იძიებს"
+                }
+              ]
+            }
+          ]
+        }
+      },
+      "id": "otherCrimeKrebs",
+      "usersObject": false,
+      "type": "INCIDENT",
+      "title": [
+        "qualification_type_name"
+      ]
+    },
+    {
+      "name": "ყაჩაღობა",
+      "icon": "heistKrebs.svg",
+      "details": {
+        "body": {
+          "items": [
+            {
+              "type": "fieldSet",
+              "title": "",
+              "items": [
+                {
+                  "fieldName": "qualification_type_name",
+                  "label": "დანაშაულის კატეგორია"
+                },
+                {
+                  "fieldName": "persons",
+                  "label": "მონაწილე პირ(ებ)ი"
+                },
+                {
+                  "fieldName": "org_structure_name",
+                  "label": "საქმეს იძიებს"
+                }
+              ]
+            }
+          ]
+        }
+      },
+      "id": "heistKrebs",
+      "usersObject": false,
+      "type": "INCIDENT",
+      "title": [
+        "qualification_type_name"
+      ]
+    }
+  ]
+}

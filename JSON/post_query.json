@@ -1,0 +1,12 @@
+{
+  "categories": [
+    "drugCrimeKrebs"
+  ],
+  "dateFrom": "2019-01-01T00:00:00.000+04:00",
+  "dateTo": "2020-04-13T23:59:59.999+04:00",
+  "insertedByMe": false,
+  "query": "",
+  "shapeCategory": null,
+  "shapeId": null,
+  "shapePolygonCoordinates": null
+}

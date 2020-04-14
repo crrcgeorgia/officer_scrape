@@ -5,13 +5,13 @@ import pandas as pd
 from datetime import datetime, date
 
 #%%
-with open("DATA\POLICE\post_query.json", "r") as f:
+with open("JSON\post_query.json", "r") as f:
     data = f.read()
 
-with open("DATA\POLICE\headers_post.json", "r") as f:
+with open("JSON\headers_post.json", "r") as f:
     head_post = json.loads(f.read())["Request Headers (456 B)"]["headers"]
 
-with open("DATA\POLICE\headers_get.json", "r") as f:
+with open("JSON\headers_get.json", "r") as f:
     head_get = json.loads(f.read())["Request Headers (456 B)"]["headers"]
 
 h_post = {}
@@ -24,7 +24,7 @@ for h in head_get:
     v = list(h.values())
     h_get.update({v[0]: v[1]})
 
-with open("DATA\POLICE\cats.json", "r", encoding="utf-8") as f:
+with open("JSON\cats.json", "r", encoding="utf-8") as f:
     CATS = json.loads(f.read())
     cats = [i["id"] for i in CATS["JSON"]]
 
@@ -101,7 +101,7 @@ for d in dates:
             if type(item) == dict:
                 out.append(i)
 
-with open("DATA/POLICE/map.json", "w", encoding="utf-8") as f:
+with open("OUTPUT\map.json", "w", encoding="utf-8") as f:
     f.write(json.dumps(out))
 
 #%%
