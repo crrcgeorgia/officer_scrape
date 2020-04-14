@@ -94,7 +94,12 @@ for d in dates:
             i["source"] = cat
             i["lab"] = lab
 
-        out.append(x)
+        for item in x:
+            if type(item) == list:
+                for i in item:
+                    out.append(i)
+            if type(item) == dict:
+                out.append(i)
 
 with open("DATA/POLICE/map.json", "w", encoding="utf-8") as f:
     f.write(json.dumps(out))
