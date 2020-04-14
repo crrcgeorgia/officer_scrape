@@ -94,7 +94,9 @@ for d in dates:
             i["source"] = cat
             i["lab"] = lab
 
-        with open("DATA/POLICE/map.json", "a", encoding="utf-8") as f:
-            f.write(json.dumps(x))
+        out.append(x)
+
+with open("DATA/POLICE/map.json", "w", encoding="utf-8") as f:
+    f.write(json.dumps(out))
 
 #%%
